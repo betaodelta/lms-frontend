@@ -17,15 +17,14 @@ This is the frontend of the Learning Management System (LMS), built using **Next
 
 ---
 
-## 🛠️ Tech Stack
+## ⚙️ Tech Stack
 
 - **Framework:** Next.js
 - **Language:** TypeScript
-- **Styling:** Tailwind CSS  version-3.3.0 / CSS Modules 
-- **State Management:** React Context 
-- **Auth:** JWT (via backend APIs) Params(via frontend)
-- **Media:** Cloudinary for images/videos
-- **API Calls:** Fetch
-- **Routing:** Dynamic routes in Next.js
-
+- **Styling:** Tailwind CSS (or your choice)
+- **State Management:** Zustand (for global auth/user state)
+- **Routing:** Next.js Dynamic Routing
+- **Authentication:** JWT-based (managed via Zustand)
+- **API Calls:** Native Fetch API
+- **Media Handling:** Cloudinary
 ---
